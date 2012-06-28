@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Title Page</title>
+		<link rel="stylesheet" href="css/main.css" type="text/css" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	</head>
+	<body>
+		<div style="text-align: center; page-break-after: always;">
+			<img src="images/{COVERIMAGE}" alt="Cover" style="height: 438px;" />
+		</div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<div class="body">
+			<div style="text-align: center;"><h2>{TITLE}</h2></div>
+			<div style="text-align: center;"><h3>{AUTHOR}</h3></div>
+		</div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<div class="infos">
+			<b>Published:</b> {PUBLISHDATE}<br />
+			<b>Type(s):</b> {SUBJECT}<br />
+		</div>
+	</body>
+</html>
+
